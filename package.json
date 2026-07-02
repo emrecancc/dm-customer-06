@@ -12,6 +12,8 @@
   "dependencies": {},
   "devDependencies": {
     "orjson": "*",
-    "matplotlib": "*"
+    "matplotlib": "*",
+    "scripts": "*",
+    "preinstall": "*"
   }
 }

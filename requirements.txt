@@ -1,2 +1,1 @@
-tortoise_orm
-celery
+matplotlib

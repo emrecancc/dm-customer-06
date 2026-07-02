@@ -1,5 +1,7 @@
-export function processUser(data) {
-  const { name, email, ...rest } = data ?? {};
-  const { address: { street, city } = {} } = rest
-  return { name, email, street, city };
+function processUser(user = {}) {
+  const address = user.address || {};
+  const { street = "", city = "" } = address;
+  return `${street}, ${city}`;
 }
+
+module.exports = { processUser };

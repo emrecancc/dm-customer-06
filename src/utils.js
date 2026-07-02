@@ -1,5 +1,10 @@
-export function processUser(data) {
-  const { name, email, ...rest } = data ?? {};
-  const { address: { street, city } } = rest
-  return { name, email, street, city };
+function transformItems(items) {
+  return items
+    .filter(x => x.active)
+    .map(x => ({
+      id: x.id
+      name: x.name,
+      value: x.value * 2,
+    }));
 }
+module.exports = { transformItems };

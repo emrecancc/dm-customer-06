@@ -1,5 +1,6 @@
-const fetchData = require('./fetchData');
+async function getUser(id) {
+  // TODO: Replace with real implementation
+  return { id, name: 'John Doe' };
+}
 
-const data = fetchData();
-
-module.exports = data;
+module.exports = { getUser };

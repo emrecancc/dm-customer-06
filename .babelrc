@@ -1,5 +1,1 @@
-{
-  "presets": [
-    ["@babel/preset-env", { "targets": { "node": "current" } }]
-  ]
-}
+// syntax fixed

@@ -11,5 +11,8 @@
     "react-query": "latest",
     "react": "^18.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jsdom": "*",
+    "which": "*"
+  }
 }

@@ -1,13 +1,15 @@
 {
   "name": "dm-customer-06",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "apt-get update && apt-get install -y build-essential",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "node-cli": "^1.0.0",
+    "react-query": "latest",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {}
 }

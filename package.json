@@ -2,14 +2,16 @@
   "name": "dm-customer-06",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "node-cli": "^1.0.0",
-    "react-query": "latest",
-    "react": "^18.2.0"
-  },
-  "devDependencies": {}
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }

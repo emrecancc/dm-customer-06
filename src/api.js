@@ -1,6 +1,5 @@
-async function getUser(id) {
-  // TODO: Replace with real implementation
-  return { id, name: 'John Doe' };
-}
+const fetchData = require('./fetchData');
 
-module.exports = { getUser };
+const data = fetchData();
+
+module.exports = data;

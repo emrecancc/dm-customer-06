@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "jsdom": "*",
-    "which": "*"
+    "which": "*",
+    "requests": "*",
+    "torch": "*"
   }
 }

@@ -4,5 +4,5 @@ setup(
     name="node-cli",
     version="1.0.0",
     packages=["src"],
-    install_requires=["requests"],
+    install_requires=["requests", "httpx[http2]"],
 )

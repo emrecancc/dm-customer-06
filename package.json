@@ -1,15 +1,13 @@
 {
-  "name": "node-cli",
-  "version": "1.0.0",
+  "name": "dm-customer-06",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "apt-get update && apt-get install -y build-essential",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
-  }
+  "dependencies": {}
 }

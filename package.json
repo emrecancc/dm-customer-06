@@ -11,6 +11,8 @@
   },
   "devDependencies": {
     "anthropic": "*",
-    "react": "*"
+    "react": "*",
+    "pandas": "*",
+    "beanie": "*"
   }
 }

@@ -1,5 +1,5 @@
-const handler = (req, res) => {
-  const data = await fetchData();
-  res.json(data);
-};
-module.exports = { handler };
+async function getUser(id {
+  const r = await fetch(`/api/users/${id}`);
+  return r.json();
+}
+module.exports = { getUser };

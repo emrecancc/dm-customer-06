@@ -1,2 +1,2 @@
-orjson
-matplotlib
+tortoise_orm
+celery

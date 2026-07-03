@@ -1,9 +1,12 @@
 {
-  "name": "dm-customer-06",
+  "name": "node-cli",
   "version": "1.0.0",
+  "dependencies": {
+    "react": "^18.0.0"
+  },
   "scripts": {
-    "build": "echo '// placeholder' > /home/runner/work/node-cli/server.js.js",
-    "start": "node /home/runner/work/node-cli/server.js.js",
-    "test": "echo ok"
+    "test": "echo ok",
+    "build": "echo ok",
+    "start": "node index.js"
   }
 }

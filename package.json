@@ -1,10 +1,13 @@
 {
-  "name": "node-cli",
-  "version": "1.0.0",
-  "main": "app.js",
+  "name": "dm-customer-06",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "preinstall": "apt-get update && apt-get install -y build-essential",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
 }

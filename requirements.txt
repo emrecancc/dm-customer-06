@@ -1,2 +1,2 @@
-redis
-gunicorn
+transformers
+pyyaml

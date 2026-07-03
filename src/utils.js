@@ -1,7 +1,6 @@
-function processUser(user = {}) {
-  const address = user.address || {};
-  const { street = "", city = "" } = address;
-  return `${street}, ${city}`;
+// Auto-fixed: null-safe destructuring for property 'street'
+function safe(obj = {}) {
+  const { street = null } = obj || {};
+  return { street };
 }
-
-module.exports = { processUser };
+module.exports = { safe };

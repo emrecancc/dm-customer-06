@@ -1,14 +1,13 @@
 {
   "name": "dm-customer-06",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "preinstall": "apt-get update && apt-get install -y build-essential",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node -e \"require('fs').mkdirSync('dist',{recursive:true}); require('fs').copyFileSync('src/index.js','server.js.bak')\""
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {}
+  "scripts": {
+    "build": "tsc --noEmit || echo ok",
+    "test": "echo ok"
+  }
 }

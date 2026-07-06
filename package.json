@@ -1,12 +1,11 @@
 {
-  "name": "node-cli",
+  "name": "dm-customer-06",
   "version": "1.0.0",
-  "dependencies": {
-    "react": "^18.0.0"
-  },
   "scripts": {
-    "test": "echo ok",
-    "build": "echo ok",
+    "test": "echo 'ok'",
+    "build": "echo 'build ok'",
     "start": "node index.js"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
